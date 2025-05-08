@@ -1,0 +1,243 @@
+jQuery(document).ready(function ($) {
+
+    const swiper = new Swiper('.hero-slider', {
+        slidesPerView: 1,
+        loop: true,
+        pagination: {
+            el: '.hero-slider .swiper-pagination',
+            type: 'bullets',
+            clickable: true
+        },
+    });
+
+    const swiper2 = new Swiper('#post-slider .blog-slider-wrapper', {
+        slidesPerView: 3,
+        spaceBetween: 65,
+        loop: true,
+        navigation: {
+          nextEl: "#post-slider .arrow-next",
+          prevEl: "#post-slider .arrow-prev"
+        },
+        pagination: {
+            el: '#post-slider .swiper-pagination',
+            type: 'bullets',
+            clickable: true
+        },
+        breakpoints: {
+          768: {
+            slidesPerView: 1,
+            spaceBetween: 30
+          },
+          1300: {
+            slidesPerView: 2,
+            spaceBetween: 40
+          }
+        }
+    });
+
+    const swiper3 = new Swiper('#social-position .blog-slider-wrapper', {
+        slidesPerView: 3,
+        spaceBetween: 65,
+        loop: true,
+        navigation: {
+          nextEl: "#social-position .arrow-next",
+          prevEl: "#social-position .arrow-prev"
+        },
+        pagination: {
+            el: '#social-position .swiper-pagination',
+            type: 'bullets',
+            clickable: true
+        },
+        breakpoints: {
+          768: {
+            slidesPerView: 1,
+            spaceBetween: 30
+          },
+          1300: {
+            slidesPerView: 2,
+            spaceBetween: 40
+          }
+        }
+    });
+
+    const swiper4 = new Swiper('#events-slider .events-slider-wrapper', {
+        slidesPerView: 1,
+        loop: true,
+        autoplay: {
+          delay: 5000,
+        },
+    });
+
+  const swiper5 = new Swiper("#testimonials .swiper", {
+    slidesPerView: 2,
+    spaceBetween: 16,
+    loop: true,
+    pagination: {
+      el: "#testimonials .swiper__pagination",
+      type: "bullets",
+      dynamicBullets: true,
+    },
+    navigation: {
+      nextEl: "#testimonials .navigation-btn-next",
+      prevEl: "#testimonials .navigation-btn-prev",
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 1,
+        spaceBetween: 24,
+      },
+      1300: {
+        slidesPerView: 2,
+        spaceBetween: 40,
+      },
+    },
+  });
+
+    //Tabs
+    $('.tabs-wrapper .progtab').on('click', function (e) {
+        $('.tabs-wrapper .progtab').removeClass('active');
+        $(this).addClass('active');
+
+        var hpos = $(this).offset().left;
+        $('#progtabs').scrollLeft(hpos);
+
+        $('.programs-wrapper .programs-cat-list').removeClass('active');
+        var wrapper = $(this).closest('.programs-tabs-wrapper');
+        var activetabcontent = wrapper.find('#' + $(this).attr("id") + '-content');
+        activetabcontent.addClass('active')
+    });
+
+    $("#programm .programs-arrows").on('click', function () {
+        var filtersection = $(this).closest('section');
+        var activetab = filtersection.find('.progtab.active');
+
+        if ($(this).hasClass('arrow-next')) {
+            var nexttab = activetab.next('.progtab');
+            if (nexttab.length == 0) {
+                var nexttab = filtersection.find('.progtab:first-of-type');
+            }
+        }
+        if ($(this).hasClass('arrow-prev')) {
+            var nexttab = activetab.prev('.progtab');
+            if (nexttab.length == 0) {
+                var nexttab = filtersection.find('.progtab:last-of-type');
+            }
+        }
+        var hpos = nexttab.offset().left;
+        $('#progtabs').scrollLeft(hpos);
+
+        var filterdata = nexttab.attr("id") + '-content';
+
+        filtersection.find('.active').removeClass('active');
+        nexttab.addClass('active');
+        filtersection.find('#' + filterdata).addClass('active');
+    });
+
+
+    $('.front-prog-loadmore').on('click', function (e) {
+        var btnwrapper = $(this).closest('.btn-wrapper');
+        var btntext = $(this).find('span');
+        var btnhidetext = $(this).data('hidetext');
+        var btnhidetext2 = $(this).data('btntext');
+        var thiscatlist = btnwrapper.siblings('.programs-list');
+        thiscatlist.toggleClass('open');
+        if (thiscatlist.hasClass('open')) {
+            btntext.text(btnhidetext);
+        } else {
+            btntext.text(btnhidetext2);
+        }
+    });
+
+
+    $('.go-from .single-go-from').on('click', function (e) {
+        $('.go-from .single-go-from').removeClass('active');
+        $(this).addClass('active');
+
+        var wrapper = $(this).closest('.go-from-wrapper');
+        wrapper.find('.images-wrapper img').removeClass('active');
+
+        var activeimg = wrapper.find('#' + $(this).attr("id") + '-img');
+        activeimg.addClass('active')
+    });
+
+    $('.tabs-wrapper .studprojtab').on('click', function (e) {
+        $('.tabs-wrapper .studprojtab').removeClass('active');
+        $(this).addClass('active');
+
+        var hpos = $(this).offset().left;
+        $('#studprojtabs').scrollLeft(hpos);
+
+        $('.studproj-wrapper .studproj-cat-list').removeClass('active');
+        var wrapper = $(this).closest('.studproj-tabs-wrapper');
+        var activetabcontent = wrapper.find('#' + $(this).attr("id") + '-content');
+        activetabcontent.addClass('active')
+    });
+
+    $("#studproj .studproj-arrows").on('click', function () {
+        var filtersection = $(this).closest('section');
+        var activetab = filtersection.find('.studprojtab.active');
+
+        if ($(this).hasClass('arrow-next')) {
+            var nexttab = activetab.next('.studprojtab');
+            if (nexttab.length == 0) {
+                var nexttab = filtersection.find('.studprojtab:first-of-type');
+            }
+        }
+        if ($(this).hasClass('arrow-prev')) {
+            var nexttab = activetab.prev('.studprojtab');
+            if (nexttab.length == 0) {
+                var nexttab = filtersection.find('.studprojtab:last-of-type');
+            }
+        }
+        var hpos = nexttab.offset().left;
+        $('#studprojtabs').scrollLeft(hpos);
+
+        var filterdata = nexttab.attr("id") + '-content';
+
+        filtersection.find('.active').removeClass('active');
+        nexttab.addClass('active');
+        filtersection.find('#' + filterdata).addClass('active');
+    });
+
+    $(".studproj-sliders").each(function () {
+        const spcatid = $(this).attr("id");
+        const swiper = new Swiper($(this)[0], {//
+            slidesPerView: 'auto',
+//        centeredSlides: true,
+            autoHeight: true,
+            loop: true,
+            observer: true,
+            observeParents: true,
+            navigation: {
+                nextEl: '#' + spcatid + '-next',
+                prevEl: '#' + spcatid + '-prev',
+            },
+            pagination: {
+                el: '#' + spcatid + ' .navigation-wrapper .swiper-pagination',
+                type: 'bullets',
+                clickable: true
+            },
+            onSlideChangeEnd:function(e){
+              swiper.update(true);
+            }
+        });
+
+    });
+    
+    $('.question').on('click', function (e) {
+        $(this).closest('.faq-sigle').toggleClass("active");
+        $(this).siblings('.answer').slideToggle(400);
+    });
+        
+    $('.see-more').on('click', function (e) {
+        var btnhidetext = $(this).data('hidetext');
+        var btnhidetext2 = $(this).data('btntext');
+        var aboutwrapper = $(this).closest('.about-wrapper').toggleClass("active");
+        if (aboutwrapper.hasClass('active')) {
+            $(this).text(btnhidetext);
+        } else {
+            $(this).text(btnhidetext2);
+        }
+    });
+
+});

@@ -4,7 +4,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <script async=""
-            src="./Курси програмування в Україні (онлайн та офлайн)☑️ IT курси з працевлаштуванням_files/gtm.js.Без названия"></script>
+            src="./res/gtm.js.Без названия"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -52,15 +52,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
 
     <link rel="stylesheet" onload="this.onload=null;this.removeAttribute(&#39;media&#39;);"
-          href="./Курси програмування в Україні (онлайн та офлайн)☑️ IT курси з працевлаштуванням_files/css2">
+          href="./res/css2">
 
     <link rel="preload" as="video" type="video/mp4" href="https://dan-it.com.ua/uk/">
 
 
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <style>img:is([sizes="auto" i], [sizes^="auto," i]) {
-        contain-intrinsic-size: 3000px 1500px
-    }</style>
+            contain-intrinsic-size: 3000px 1500px
+        }</style>
     <link rel="alternate" hreflang="ru" href="https://dan-it.com.ua/">
     <link rel="alternate" hreflang="uk" href="https://dan-it.com.ua/uk/">
     <link rel="alternate" hreflang="x-default" href="https://dan-it.com.ua/">
@@ -80,67 +80,67 @@
     <meta property="article:modified_time" content="2025-04-09T11:18:22+00:00">
     <meta name="twitter:card" content="summary_large_image">
     <script type="application/ld+json" class="yoast-schema-graph">{
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "WebPage",
-                "@id": "https://dan-it.com.ua/uk/",
-                "url": "https://dan-it.com.ua/uk/",
-                "name": "Курси програмування в Україні (онлайн та офлайн)☑️ IT курси з працевлаштуванням",
-                "isPartOf": {
-                    "@id": "https://dan-it.com.ua/uk/#website"
-                },
-                "datePublished": "2024-10-11T11:07:30+00:00",
-                "dateModified": "2025-04-09T11:18:22+00:00",
-                "description": "Після навчання в DAN.IT Ви гарантовано отримуєте оффер на роботу. IT курси в Україні з гарантією працевлаштування від DAN.IT",
-                "breadcrumb": {
-                    "@id": "https://dan-it.com.ua/uk/#breadcrumb"
-                },
-                "inLanguage": "uk",
-                "potentialAction": [
-                    {
-                        "@type": "ReadAction",
-                        "target": [
-                            "https://dan-it.com.ua/uk/"
-                        ]
-                    }
-                ]
-            },
-            {
-                "@type": "BreadcrumbList",
-                "@id": "https://dan-it.com.ua/uk/#breadcrumb",
-                "itemListElement": [
-                    {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Главная страница"
-                    }
-                ]
-            },
-            {
-                "@type": "WebSite",
-                "@id": "https://dan-it.com.ua/uk/#website",
-                "url": "https://dan-it.com.ua/uk/",
-                "name": "DAN IT Education",
-                "description": "IT education",
-                "potentialAction": [
-                    {
-                        "@type": "SearchAction",
-                        "target": {
-                            "@type": "EntryPoint",
-                            "urlTemplate": "https://dan-it.com.ua/uk/?s={search_term_string}"
-                        },
-                        "query-input": {
-                            "@type": "PropertyValueSpecification",
-                            "valueRequired": true,
-                            "valueName": "search_term_string"
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https://dan-it.com.ua/uk/",
+                    "url": "https://dan-it.com.ua/uk/",
+                    "name": "Курси програмування в Україні (онлайн та офлайн)☑️ IT курси з працевлаштуванням",
+                    "isPartOf": {
+                        "@id": "https://dan-it.com.ua/uk/#website"
+                    },
+                    "datePublished": "2024-10-11T11:07:30+00:00",
+                    "dateModified": "2025-04-09T11:18:22+00:00",
+                    "description": "Після навчання в DAN.IT Ви гарантовано отримуєте оффер на роботу. IT курси в Україні з гарантією працевлаштування від DAN.IT",
+                    "breadcrumb": {
+                        "@id": "https://dan-it.com.ua/uk/#breadcrumb"
+                    },
+                    "inLanguage": "uk",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https://dan-it.com.ua/uk/"
+                            ]
                         }
-                    }
-                ],
-                "inLanguage": "uk"
-            }
-        ]
-    }</script>
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https://dan-it.com.ua/uk/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Главная страница"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https://dan-it.com.ua/uk/#website",
+                    "url": "https://dan-it.com.ua/uk/",
+                    "name": "DAN IT Education",
+                    "description": "IT education",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https://dan-it.com.ua/uk/?s={search_term_string}"
+                            },
+                            "query-input": {
+                                "@type": "PropertyValueSpecification",
+                                "valueRequired": true,
+                                "valueName": "search_term_string"
+                            }
+                        }
+                    ],
+                    "inLanguage": "uk"
+                }
+            ]
+        }</script>
     <!-- / Yoast SEO plugin. -->
 
 
@@ -506,17 +506,17 @@
         }
     </style>
     <link rel="stylesheet" id="contact-form-7-css"
-          href="./Курси програмування в Україні (онлайн та офлайн)☑️ IT курси з працевлаштуванням_files/styles.css">
+          href="./res/styles.css">
     <link rel="stylesheet" id="intl-tel-input-css-css"
-          href="./Курси програмування в Україні (онлайн та офлайн)☑️ IT курси з працевлаштуванням_files/intlTelInput.css">
+          href="./res/intlTelInput.css">
     <link rel="stylesheet" id="intltel_css-css"
-          href="./Курси програмування в Україні (онлайн та офлайн)☑️ IT курси з працевлаштуванням_files/intlTelInput.min.css">
+          href="./res/intlTelInput.min.css">
     <link rel="stylesheet" id="global-css"
-          href="./Курси програмування в Україні (онлайн та офлайн)☑️ IT курси з працевлаштуванням_files/global.css">
+          href="./res/global.css">
     <link rel="stylesheet" id="swiper_css-css"
-          href="./Курси програмування в Україні (онлайн та офлайн)☑️ IT курси з працевлаштуванням_files/swiper.min.css">
+          href="./res/swiper.min.css">
     <link rel="stylesheet" id="frontpage-css"
-          href="./Курси програмування в Україні (онлайн та офлайн)☑️ IT курси з працевлаштуванням_files/front-page.css">
+          href="./res/front-page.css">
     <script type="text/javascript" id="wpml-cookie-js-extra">
         /* <![CDATA[ */
         var wpml_cookies = {"wp-wpml_current_language": {"value": "uk", "expires": 1, "path": "\/"}};
@@ -524,16 +524,16 @@
         /* ]]> */
     </script>
     <script type="text/javascript"
-            src="./Курси програмування в Україні (онлайн та офлайн)☑️ IT курси з працевлаштуванням_files/language-cookie.js.Без названия"
+            src="./res/language-cookie.js.Без названия"
             id="wpml-cookie-js" defer="defer" data-wp-strategy="defer"></script>
     <script type="text/javascript"
-            src="./Курси програмування в Україні (онлайн та офлайн)☑️ IT курси з працевлаштуванням_files/jquery.min.js.Без названия"
+            src="./res/jquery.min.js.Без названия"
             id="jquery-core-js"></script>
     <script type="text/javascript"
-            src="./Курси програмування в Україні (онлайн та офлайн)☑️ IT курси з працевлаштуванням_files/jquery-migrate.min.js.Без названия"
+            src="./res/jquery-migrate.min.js.Без названия"
             id="jquery-migrate-js"></script>
     <script type="text/javascript"
-            src="./Курси програмування в Україні (онлайн та офлайн)☑️ IT курси з працевлаштуванням_files/js.cookie.js.Без названия"
+            src="./res/js.cookie.js.Без названия"
             id="js.cookie-js"></script>
     <script type="text/javascript" id="handl-utm-grabber-js-extra">
         /* <![CDATA[ */
@@ -541,11 +541,11 @@
         /* ]]> */
     </script>
     <script type="text/javascript"
-            src="./Курси програмування в Україні (онлайн та офлайн)☑️ IT курси з працевлаштуванням_files/handl-utm-grabber.js.Без названия"
+            src="./res/handl-utm-grabber.js.Без названия"
             id="handl-utm-grabber-js"></script>
-    <script src="./Курси програмування в Україні (онлайн та офлайн)☑️ IT курси з працевлаштуванням_files/main.min.js.Без названия"
+    <script src="./res/main.min.js.Без названия"
             defer="defer"></script>
-    <script src="./Курси програмування в Україні (онлайн та офлайн)☑️ IT курси з працевлаштуванням_files/vendor.min.js.Без названия"
+    <script src="./res/vendor.min.js.Без названия"
             defer="defer"></script>
     <link rel="https://api.w.org/" href="https://dan-it.com.ua/uk/wp-json/">
     <link rel="alternate" title="JSON" type="application/json" href="https://dan-it.com.ua/uk/wp-json/wp/v2/pages/14">
@@ -563,7 +563,9 @@
     <meta name="msapplication-TileImage"
           content="https://dan-it.com.ua/wp-content/uploads/2024/11/cropped-apple-touch-icon-270x270.png">
     <script async=""
-            src="./Курси програмування в Україні (онлайн та офлайн)☑️ IT курси з працевлаштуванням_files/csq-5356245.js.Без названия"></script>
+            src="./res/csq-5356245.js.Без названия"></script>
+    <link rel="stylesheet" href="css/programms.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body class="home page-template-default page page-id-14 page__body golovna page__body--no-scroll">
@@ -573,3 +575,4 @@
     <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSX67G2" height="0" width="0"
             style="display:none;visibility:hidden" loading="lazy"></iframe>
 </noscript>
+<?php include "components/header.php"?>
